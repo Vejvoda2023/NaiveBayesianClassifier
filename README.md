@@ -5,7 +5,7 @@
 - 前126篇为垃圾邮件
 - 127-149为正常邮件
 - 第150到155为未知邮件
-- 156到165共10篇邮件，对应的分类如下：
+- 然后我从trec06c数据集中拿了10篇邮件添加为156到165，对应的分类如下：
   - ham
   - spam
   - spam
@@ -44,10 +44,5 @@
 ## 文件结构
 - `data/`：存放邮件数据（.txt文件）
 - `cn_stopwords.txt`：中文停用词表
-- `NBC.ipynb`：基础实现版本
-- `NBC-Improvements.ipynb`：改进版本（使用TF-IDF）
-
-## 依赖库
-- jieba
-- scikit-learn
-- numpy
+- `NBC.ipynb`：手动高频词统计版本
+- `NBC-Improvements.ipynb`：改进（bushi🤣)版本（使用TF-IDF）
